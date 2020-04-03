@@ -1,0 +1,10 @@
+TIME TRACKER
+
+Date: 4/3
+- 6 hours
+- spent time researching different databases. I had an idea of what  I wanted to do, a beer recommender,
+but I couldnt find a large enough dataset that had reviews as well as user ID's. This took a solid two to
+three hourse. After finding a dataset that seemed like it held potential, I started some data analysis to
+find out just how plausible it was. After playing with the data for a few more hours and cleaning it a bit,
+it seems like it could be used to build a predictor using SVD, by putting it into a bag-of-words-style
+format, having a user review beers, and determining what other users they are most similar to.
