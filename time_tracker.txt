@@ -4,7 +4,30 @@ Date: 4/3
 - 6 hours
 - spent time researching different databases. I had an idea of what  I wanted to do, a beer recommender,
 but I couldnt find a large enough dataset that had reviews as well as user ID's. This took a solid two to
-three hourse. After finding a dataset that seemed like it held potential, I started some data analysis to
+three hours. After finding a dataset that seemed like it held potential, I started some data analysis to
 find out just how plausible it was. After playing with the data for a few more hours and cleaning it a bit,
 it seems like it could be used to build a predictor using SVD, by putting it into a bag-of-words-style
 format, having a user review beers, and determining what other users they are most similar to.
+
+Date: 4/4
+- 1.5 hours
+- I wrote the project proposal
+
+Date: 4/10
+- 7 hours
+- reduced data by removing beers with < 25 reviews, but got stuck trying to turn the massive dataset into
+a pivot table matrix. I had to go back and significantly reduce the data so that it could fit in memory
+when in its matrix form. I removed all beers with less than 72 reviews (reduced from over 24,000 beers
+to 9999 beers), and I removed all users with less than 6 reviews (reduced from over 102,000 users to just
+under 53000). The total number of sample reviews were reduced from 5.5 million to about 4.8 million reviews.
+The remaining 4.8 reviews share many more users/beers so the pivot table will be much smaller.
+- managed to get correlation coefficients but it appears the highly reviewed beers are overwhelming everything
+else becuase they always receive a perfect correlation with all other beers.
+
+Date: 4/11
+**start:** 2:25pm
+- reviewed correlation problem. Could not resolve issue with corrwith(), but also looked into using cosine
+similarity instead of euclidean distance.
+- Began trying new method using KNN and a sparse matrix to help with runtime and memory consumption.
+
+
