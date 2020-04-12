@@ -25,10 +25,11 @@ The remaining 4.8 reviews share many more users/beers so the pivot table will be
 else becuase they always receive a perfect correlation with all other beers.
 
 Date: 4/11
-**start:** 2:25pm
+- 6.5 hours
 - reviewed correlation problem. Could not resolve issue with corrwith(), but also looked into using cosine
 similarity instead of euclidean distance.
 - Began trying new method using KNN and a sparse matrix to help with runtime and memory consumption.
 - reviewed KNN documentation, specifically NearestNeighbors. Took notes on different hyper param options.
+- completed KNN predictor!
 
 
