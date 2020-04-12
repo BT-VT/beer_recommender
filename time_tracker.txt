@@ -29,5 +29,6 @@ Date: 4/11
 - reviewed correlation problem. Could not resolve issue with corrwith(), but also looked into using cosine
 similarity instead of euclidean distance.
 - Began trying new method using KNN and a sparse matrix to help with runtime and memory consumption.
+- reviewed KNN documentation, specifically NearestNeighbors. Took notes on different hyper param options.
 
 
