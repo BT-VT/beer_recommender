@@ -1,8 +1,8 @@
-TIME TRACKER
+TIME TRACKER: 45 total hours
 
 Date: 4/3
 - 6 hours
-- spent time researching different databases. I had an idea of what  I wanted to do, a beer recommender,
+- spent time researching different datasets. I had an idea of what  I wanted to do, a beer recommender,
 but I couldnt find a large enough dataset that had reviews as well as user ID's. This took a solid two to
 three hours. After finding a dataset that seemed like it held potential, I started some data analysis to
 find out just how plausible it was. After playing with the data for a few more hours and cleaning it a bit,
@@ -33,3 +33,40 @@ similarity instead of euclidean distance.
 - completed KNN predictor!
 
 
+Date: 4/12
+- 1 hour
+- wrote submission 1
+
+Date; 4/16
+- 4 hours
+- created basic API for KNN recommender
+- researched using SVD for recommendation
+
+Date: 4/17
+- 4 hours
+- began implementation of SVD, heavily researching Surprise lib
+- tried using cross-valitdation to train and test data but it was taking too long (no progress bar)
+- able to fit data to SVD predictor and test showed very low RMSE (0.3)
+- cant get build_anti_testset() to work, eats up too much memory and runtime takes too long.
+
+Date: 4/18
+- 1.5 hours
+- wrote submission 2
+
+Date: 4/25
+- 7 hours
+- finished most wrapper functions for SVD model and began final demo file.
+- can get top x estimated ratings for any user in dataset (excludes beers they have rated)
+- tested and cleaned up collab_filtering.py
+- still need to implement function to get user's estimated rating for a single beer
+
+Date: 5/1
+- 5 hours
+- fixed issue found in knn recommender, where I was recommending the top k recommendations in
+  reverse order.
+- implemented function to get a single estimated rating for SVD.
+- began final report and completed about 3 pages.
+
+Date: 5/1
+- 1.5 hours
+- finished final report
